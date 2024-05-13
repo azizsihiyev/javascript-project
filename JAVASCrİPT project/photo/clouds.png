@@ -1,0 +1,417 @@
+
+
+	<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge"><script type="text/javascript">(window.NREUM||(NREUM={})).init={ajax:{deny_list:["bam.nr-data.net"]}};(window.NREUM||(NREUM={})).loader_config={licenseKey:"NRJS-15417342d295584c702",applicationID:"525287958"};;/*! For license information please see nr-loader-rum-1.253.0.min.js.LICENSE.txt */
+(()=>{var e,t,n={234:(e,t,n)=>{"use strict";n.d(t,{P_:()=>v,Mt:()=>b,C5:()=>s,OP:()=>k,lF:()=>N,Yu:()=>w,Dg:()=>m,CX:()=>c,GE:()=>x,sU:()=>R});var r=n(8632),i=n(9567);const o={beacon:r.ce.beacon,errorBeacon:r.ce.errorBeacon,licenseKey:void 0,applicationID:void 0,sa:void 0,queueTime:void 0,applicationTime:void 0,ttGuid:void 0,user:void 0,account:void 0,product:void 0,extra:void 0,jsAttributes:{},userAttributes:void 0,atts:void 0,transactionName:void 0,tNamePlain:void 0},a={};function s(e){if(!e)throw new Error("All info objects require an agent identifier!");if(!a[e])throw new Error("Info for ".concat(e," was never set"));return a[e]}function c(e,t){if(!e)throw new Error("All info objects require an agent identifier!");a[e]=(0,i.D)(t,o);const n=(0,r.ek)(e);n&&(n.info=a[e])}const u=e=>{if(!e||"string"!=typeof e)return!1;try{document.createDocumentFragment().querySelector(e)}catch{return!1}return!0};var d=n(7056),l=n(50);const f="[data-nr-mask]",g=()=>{const e={mask_selector:"*",block_selector:"[data-nr-block]",mask_input_options:{color:!1,date:!1,"datetime-local":!1,email:!1,month:!1,number:!1,range:!1,search:!1,tel:!1,text:!1,time:!1,url:!1,week:!1,textarea:!1,select:!1,password:!0}};return{feature_flags:[],proxy:{assets:void 0,beacon:void 0},privacy:{cookies_enabled:!0},ajax:{deny_list:void 0,block_internal:!0,enabled:!0,harvestTimeSeconds:10,autoStart:!0},distributed_tracing:{enabled:void 0,exclude_newrelic_header:void 0,cors_use_newrelic_header:void 0,cors_use_tracecontext_headers:void 0,allowed_origins:void 0},session:{domain:void 0,expiresMs:d.oD,inactiveMs:d.Hb},ssl:void 0,obfuscate:void 0,jserrors:{enabled:!0,harvestTimeSeconds:10,autoStart:!0},metrics:{enabled:!0,autoStart:!0},page_action:{enabled:!0,harvestTimeSeconds:30,autoStart:!0},page_view_event:{enabled:!0,autoStart:!0},page_view_timing:{enabled:!0,harvestTimeSeconds:30,long_task:!1,autoStart:!0},session_trace:{enabled:!0,harvestTimeSeconds:10,autoStart:!0},harvest:{tooManyRequestsDelay:60},session_replay:{autoStart:!0,enabled:!1,harvestTimeSeconds:60,preload:!1,sampling_rate:10,error_sampling_rate:100,collect_fonts:!1,inline_images:!1,inline_stylesheet:!0,mask_all_inputs:!0,get mask_text_selector(){return e.mask_selector},set mask_text_selector(t){u(t)?e.mask_selector="".concat(t,",").concat(f):""===t||null===t?e.mask_selector=f:(0,l.Z)("An invalid session_replay.mask_selector was provided. '*' will be used.",t)},get block_class(){return"nr-block"},get ignore_class(){return"nr-ignore"},get mask_text_class(){return"nr-mask"},get block_selector(){return e.block_selector},set block_selector(t){u(t)?e.block_selector+=",".concat(t):""!==t&&(0,l.Z)("An invalid session_replay.block_selector was provided and will not be used",t)},get mask_input_options(){return e.mask_input_options},set mask_input_options(t){t&&"object"==typeof t?e.mask_input_options={...t,password:!0}:(0,l.Z)("An invalid session_replay.mask_input_option was provided and will not be used",t)}},spa:{enabled:!0,harvestTimeSeconds:10,autoStart:!0},soft_navigations:{enabled:!0,harvestTimeSeconds:10,autoStart:!0}}},p={},h="All configuration objects require an agent identifier!";function v(e){if(!e)throw new Error(h);if(!p[e])throw new Error("Configuration for ".concat(e," was never set"));return p[e]}function m(e,t){if(!e)throw new Error(h);p[e]=(0,i.D)(t,g());const n=(0,r.ek)(e);n&&(n.init=p[e])}function b(e,t){if(!e)throw new Error(h);var n=v(e);if(n){for(var r=t.split("."),i=0;i<r.length-1;i++)if("object"!=typeof(n=n[r[i]]))return;n=n[r[r.length-1]]}return n}const y={accountID:void 0,trustKey:void 0,agentID:void 0,licenseKey:void 0,applicationID:void 0,xpid:void 0},A={};function x(e,t){if(!e)throw new Error("All loader-config objects require an agent identifier!");A[e]=(0,i.D)(t,y);const n=(0,r.ek)(e);n&&(n.loader_config=A[e])}const w=(0,r.mF)().o;var _=n(385),E=n(6818);const D={buildEnv:E.Re,customTransaction:void 0,disabled:!1,distMethod:E.gF,isolatedBacklog:!1,loaderType:void 0,maxBytes:3e4,offset:Math.floor(_._A?.performance?.timeOrigin||_._A?.performance?.timing?.navigationStart||Date.now()),onerror:void 0,origin:""+_._A.location,ptid:void 0,releaseIds:{},session:void 0,xhrWrappable:"function"==typeof _._A.XMLHttpRequest?.prototype?.addEventListener,version:E.q4,denyList:void 0},S={};function k(e){if(!e)throw new Error("All runtime objects require an agent identifier!");if(!S[e])throw new Error("Runtime for ".concat(e," was never set"));return S[e]}function R(e,t){if(!e)throw new Error("All runtime objects require an agent identifier!");S[e]=(0,i.D)(t,D);const n=(0,r.ek)(e);n&&(n.runtime=S[e])}function N(e){return function(e){try{const t=s(e);return!!t.licenseKey&&!!t.errorBeacon&&!!t.applicationID}catch(e){return!1}}(e)}},9567:(e,t,n)=>{"use strict";n.d(t,{D:()=>i});var r=n(50);function i(e,t){try{if(!e||"object"!=typeof e)return(0,r.Z)("Setting a Configurable requires an object as input");if(!t||"object"!=typeof t)return(0,r.Z)("Setting a Configurable requires a model to set its initial properties");const n=Object.create(Object.getPrototypeOf(t),Object.getOwnPropertyDescriptors(t)),o=0===Object.keys(n).length?e:n;for(let a in o)if(void 0!==e[a])try{Array.isArray(e[a])&&Array.isArray(t[a])?n[a]=Array.from(new Set([...e[a],...t[a]])):"object"==typeof e[a]&&"object"==typeof t[a]?n[a]=i(e[a],t[a]):n[a]=e[a]}catch(e){(0,r.Z)("An error occurred while setting a property of a Configurable",e)}return n}catch(e){(0,r.Z)("An error occured while setting a Configurable",e)}}},6818:(e,t,n)=>{"use strict";n.d(t,{Re:()=>i,gF:()=>o,q4:()=>r});const r="1.253.0",i="PROD",o="CDN"},385:(e,t,n)=>{"use strict";n.d(t,{Nk:()=>d,Tt:()=>s,_A:()=>o,cv:()=>l,iS:()=>a,il:()=>r,ux:()=>c,v6:()=>i,w1:()=>u});const r="undefined"!=typeof window&&!!window.document,i="undefined"!=typeof WorkerGlobalScope&&("undefined"!=typeof self&&self instanceof WorkerGlobalScope&&self.navigator instanceof WorkerNavigator||"undefined"!=typeof globalThis&&globalThis instanceof WorkerGlobalScope&&globalThis.navigator instanceof WorkerNavigator),o=r?window:"undefined"!=typeof WorkerGlobalScope&&("undefined"!=typeof self&&self instanceof WorkerGlobalScope&&self||"undefined"!=typeof globalThis&&globalThis instanceof WorkerGlobalScope&&globalThis),a=Boolean("hidden"===o?.document?.visibilityState),s=/iPad|iPhone|iPod/.test(o.navigator?.userAgent),c=s&&"undefined"==typeof SharedWorker,u=((()=>{const e=o.navigator?.userAgent?.match(/Firefox[/\s](\d+\.\d+)/);Array.isArray(e)&&e.length>=2&&e[1]})(),Boolean(r&&window.document.documentMode)),d=!!o.navigator?.sendBeacon,l=Math.floor(o?.performance?.timeOrigin||o?.performance?.timing?.navigationStart||Date.now())},9907:(e,t,n)=>{"use strict";n.d(t,{A:()=>r});class r{constructor(e){this.contextId=e}}},8929:(e,t,n)=>{"use strict";n.d(t,{v:()=>a});var r=n(8632);const i=(0,n(4402).Rl)();var o=n(9907);class a{static contextId="nr@context:".concat(i);static contextOriginalId="nr@original:".concat(i);static contextWrappedId="nr@wrapped:".concat(a.contextId);static getObservationContextByAgentIdentifier(e){const t=(0,r.fP)();return Object.keys(t?.initializedAgents||{}).indexOf(e)>-1?t.initializedAgents[e].observationContext:void 0}#e=new WeakMap;getCreateContext(e){return this.#e.has(e)||this.#e.set(e,new o.A),this.#e.get(e)}setContext(e,t){return this.#e.set(e,t),this.#e.get(e)}}},1117:(e,t,n)=>{"use strict";n.d(t,{w:()=>o});var r=n(50);const i={agentIdentifier:"",ee:void 0};class o{constructor(e){try{if("object"!=typeof e)return(0,r.Z)("shared context requires an object as input");this.sharedContext={},Object.assign(this.sharedContext,i),Object.entries(e).forEach((e=>{let[t,n]=e;Object.keys(i).includes(t)&&(this.sharedContext[t]=n)}))}catch(e){(0,r.Z)("An error occured while setting SharedContext",e)}}}},8e3:(e,t,n)=>{"use strict";n.d(t,{L:()=>d,R:()=>c});var r=n(2177),i=n(1284),o=n(4322),a=n(3325);const s={};function c(e,t){const n={staged:!1,priority:a.p[t]||0};u(e),s[e].get(t)||s[e].set(t,n)}function u(e){e&&(s[e]||(s[e]=new Map))}function d(){let e=arguments.length>0&&void 0!==arguments[0]?arguments[0]:"",t=arguments.length>1&&void 0!==arguments[1]?arguments[1]:"feature",n=arguments.length>2&&void 0!==arguments[2]&&arguments[2];if(u(e),!e||!s[e].get(t)||n)return c(t);s[e].get(t).staged=!0;const a=[...s[e]];function c(t){const n=e?r.ee.get(e):r.ee,a=o.X.handlers;if(n.backlog&&a){var s=n.backlog[t],c=a[t];if(c){for(var u=0;s&&u<s.length;++u)l(s[u],c);(0,i.D)(c,(function(e,t){(0,i.D)(t,(function(t,n){n[0].on(e,n[1])}))}))}delete a[t],n.backlog[t]=null,n.emit("drain-"+t,[])}}a.every((e=>{let[t,n]=e;return n.staged}))&&(a.sort(((e,t)=>e[1].priority-t[1].priority)),a.forEach((t=>{let[n]=t;s[e].delete(n),c(n)})))}function l(e,t){var n=e[1];(0,i.D)(t[n],(function(t,n){var r=e[0];if(n[0]===r){var i=n[1],o=e[3],a=e[2];i.apply(o,a)}}))}},2177:(e,t,n)=>{"use strict";n.d(t,{ee:()=>c});var r=n(8632),i=n(2210),o=n(234),a=n(9907),s=n(8929);const c=function e(t,n){var r={},u={},l={},f=!1;try{f=16===n.length&&(0,o.OP)(n).isolatedBacklog}catch(e){}var g={on:h,addEventListener:h,removeEventListener:function(e,t){var n=r[e];if(!n)return;for(var i=0;i<n.length;i++)n[i]===t&&n.splice(i,1)},emit:function(e,n,r,i,o){!1!==o&&(o=!0);if(c.aborted&&!i)return;t&&o&&t.emit(e,n,r);for(var a=p(r),s=v(e),d=s.length,l=0;l<d;l++)s[l].apply(a,n);var f=b()[u[e]];f&&f.push([g,e,n,a]);return a},get:m,listeners:v,context:p,buffer:function(e,t){const n=b();if(t=t||"feature",g.aborted)return;Object.entries(e||{}).forEach((e=>{let[r,i]=e;u[i]=t,t in n||(n[t]=[])}))},abort:d,aborted:!1,isBuffering:function(e){return!!b()[u[e]]},debugId:n,backlog:f?{}:t&&"object"==typeof t.backlog?t.backlog:{},observationContextManager:null};return g;function p(e){return e&&e instanceof a.A?e:e?(0,i.X)(e,s.v.contextId,(()=>g.observationContextManager?g.observationContextManager.getCreateContext(e):new a.A(s.v.contextId))):g.observationContextManager?g.observationContextManager.getCreateContext({}):new a.A(s.v.contextId)}function h(e,t){r[e]=v(e).concat(t)}function v(e){return r[e]||[]}function m(t){const n=l[t]=l[t]||e(g,t);return!n.observationContextManager&&g.observationContextManager&&(n.observationContextManager=g.observationContextManager),n}function b(){return g.backlog}}(void 0,"globalEE"),u=(0,r.fP)();function d(){c.aborted=!0,Object.keys(c.backlog).forEach((e=>{delete c.backlog[e]}))}u.ee||(u.ee=c)},5546:(e,t,n)=>{"use strict";n.d(t,{E:()=>r,p:()=>i});var r=n(2177).ee.get("handle");function i(e,t,n,i,o){o?(o.buffer([e],i),o.emit(e,t,n)):(r.buffer([e],i),r.emit(e,t,n))}},4322:(e,t,n)=>{"use strict";n.d(t,{X:()=>o});var r=n(5546);o.on=a;var i=o.handlers={};function o(e,t,n,o){a(o||r.E,i,e,t,n)}function a(e,t,n,i,o){o||(o="feature"),e||(e=r.E);var a=t[o]=t[o]||{};(a[n]=a[n]||[]).push([e,i])}},3239:(e,t,n)=>{"use strict";n.d(t,{bP:()=>s,iz:()=>c,m$:()=>a});var r=n(385);let i=!1,o=!1;try{const e={get passive(){return i=!0,!1},get signal(){return o=!0,!1}};r._A.addEventListener("test",null,e),r._A.removeEventListener("test",null,e)}catch(e){}function a(e,t){return i||o?{capture:!!e,passive:i,signal:t}:!!e}function s(e,t){let n=arguments.length>2&&void 0!==arguments[2]&&arguments[2],r=arguments.length>3?arguments[3]:void 0;window.addEventListener(e,t,a(n,r))}function c(e,t){let n=arguments.length>2&&void 0!==arguments[2]&&arguments[2],r=arguments.length>3?arguments[3]:void 0;document.addEventListener(e,t,a(n,r))}},4402:(e,t,n)=>{"use strict";n.d(t,{Rl:()=>a,ky:()=>s});var r=n(385);const i="xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx";function o(e,t){return e?15&e[t]:16*Math.random()|0}function a(){const e=r._A?.crypto||r._A?.msCrypto;let t,n=0;return e&&e.getRandomValues&&(t=e.getRandomValues(new Uint8Array(30))),i.split("").map((e=>"x"===e?o(t,n++).toString(16):"y"===e?(3&o()|8).toString(16):e)).join("")}function s(e){const t=r._A?.crypto||r._A?.msCrypto;let n,i=0;t&&t.getRandomValues&&(n=t.getRandomValues(new Uint8Array(e)));const a=[];for(var s=0;s<e;s++)a.push(o(n,i++).toString(16));return a.join("")}},7056:(e,t,n)=>{"use strict";n.d(t,{Bq:()=>r,Hb:()=>a,IK:()=>u,K4:()=>i,oD:()=>o,uT:()=>c,wO:()=>s});const r="NRBA",i="SESSION",o=144e5,a=18e5,s={PAUSE:"session-pause",RESET:"session-reset",RESUME:"session-resume",UPDATE:"session-update"},c={SAME_TAB:"same-tab",CROSS_TAB:"cross-tab"},u={OFF:0,FULL:1,ERROR:2}},7894:(e,t,n)=>{"use strict";function r(){return Math.floor(performance.now())}n.d(t,{z:()=>r})},50:(e,t,n)=>{"use strict";function r(e,t){"function"==typeof console.warn&&(console.warn("New Relic: ".concat(e)),t&&console.warn(t))}n.d(t,{Z:()=>r})},2825:(e,t,n)=>{"use strict";n.d(t,{N:()=>d,T:()=>l});var r=n(2177),i=n(5546),o=n(3325),a=n(385);const s="newrelic";const c={stn:[o.D.sessionTrace],err:[o.D.jserrors,o.D.metrics],ins:[o.D.pageAction],spa:[o.D.spa,o.D.softNav],sr:[o.D.sessionReplay,o.D.sessionTrace]},u=new Set;function d(e,t){const n=r.ee.get(t);e&&"object"==typeof e&&(u.has(t)||(Object.entries(e).forEach((e=>{let[t,r]=e;c[t]?c[t].forEach((e=>{r?(0,i.p)("feat-"+t,[],void 0,e,n):(0,i.p)("block-"+t,[],void 0,e,n),(0,i.p)("rumresp-"+t,[Boolean(r)],void 0,e,n)})):r&&(0,i.p)("feat-"+t,[],void 0,void 0,n),l[t]=Boolean(r)})),Object.keys(c).forEach((e=>{void 0===l[e]&&(c[e]?.forEach((t=>(0,i.p)("rumresp-"+e,[!1],void 0,t,n))),l[e]=!1)})),u.add(t),function(){let e=arguments.length>0&&void 0!==arguments[0]?arguments[0]:{};try{a._A.dispatchEvent(new CustomEvent(s,{detail:e}))}catch(e){}}({loaded:!0})))}const l={}},2210:(e,t,n)=>{"use strict";n.d(t,{X:()=>i});var r=Object.prototype.hasOwnProperty;function i(e,t,n){if(r.call(e,t))return e[t];var i=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,t,{value:i,writable:!0,enumerable:!1}),i}catch(e){}return e[t]=i,i}},1284:(e,t,n)=>{"use strict";n.d(t,{D:()=>r});const r=(e,t)=>Object.entries(e||{}).map((e=>{let[n,r]=e;return t(n,r)}))},4351:(e,t,n)=>{"use strict";n.d(t,{P:()=>o});var r=n(2177);const i=()=>{const e=new WeakSet;return(t,n)=>{if("object"==typeof n&&null!==n){if(e.has(n))return;e.add(n)}return n}};function o(e){try{return JSON.stringify(e,i())}catch(e){try{r.ee.emit("internal-error",[e])}catch(e){}}}},3960:(e,t,n)=>{"use strict";n.d(t,{KB:()=>a,b2:()=>o});var r=n(3239);function i(){return"undefined"==typeof document||"complete"===document.readyState}function o(e,t){if(i())return e();(0,r.bP)("load",e,t)}function a(e){if(i())return e();(0,r.iz)("DOMContentLoaded",e)}},8632:(e,t,n)=>{"use strict";n.d(t,{EZ:()=>d,ce:()=>o,ek:()=>u,fP:()=>a,gG:()=>l,h5:()=>c,mF:()=>s});var r=n(7894),i=n(385);const o={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net"};function a(){return i._A.NREUM||(i._A.NREUM={}),void 0===i._A.newrelic&&(i._A.newrelic=i._A.NREUM),i._A.NREUM}function s(){let e=a();return e.o||(e.o={ST:i._A.setTimeout,SI:i._A.setImmediate,CT:i._A.clearTimeout,XHR:i._A.XMLHttpRequest,REQ:i._A.Request,EV:i._A.Event,PR:i._A.Promise,MO:i._A.MutationObserver,FETCH:i._A.fetch}),e}function c(e,t){let n=a();n.initializedAgents??={},t.initializedAt={ms:(0,r.z)(),date:new Date},n.initializedAgents[e]=t}function u(e){let t=a();return t.initializedAgents?.[e]}function d(e,t){a()[e]=t}function l(){return function(){let e=a();const t=e.info||{};e.info={beacon:o.beacon,errorBeacon:o.errorBeacon,...t}}(),function(){let e=a();const t=e.init||{};e.init={...t}}(),s(),function(){let e=a();const t=e.loader_config||{};e.loader_config={...t}}(),a()}},7956:(e,t,n)=>{"use strict";n.d(t,{N:()=>i});var r=n(3239);function i(e){let t=arguments.length>1&&void 0!==arguments[1]&&arguments[1],n=arguments.length>2?arguments[2]:void 0,i=arguments.length>3?arguments[3]:void 0;(0,r.iz)("visibilitychange",(function(){if(t)return void("hidden"===document.visibilityState&&e());e(document.visibilityState)}),n,i)}},3081:(e,t,n)=>{"use strict";n.d(t,{gF:()=>o,mY:()=>i,t9:()=>r,vz:()=>s,xS:()=>a});const r=n(3325).D.metrics,i="sm",o="cm",a="storeSupportabilityMetrics",s="storeEventMetrics"},7633:(e,t,n)=>{"use strict";n.d(t,{t:()=>r});const r=n(3325).D.pageViewEvent},9251:(e,t,n)=>{"use strict";n.d(t,{t:()=>r});const r=n(3325).D.pageViewTiming},7144:(e,t,n)=>{"use strict";n.d(t,{Ef:()=>i});var r=n(7056);n(3325).D.sessionReplay;const i={RECORD:"recordReplay",PAUSE:"pauseReplay"};r.IK.ERROR,r.IK.FULL,r.IK.OFF},5938:(e,t,n)=>{"use strict";n.d(t,{W:()=>i});var r=n(2177);class i{constructor(e,t,n){this.agentIdentifier=e,this.aggregator=t,this.ee=r.ee.get(e),this.featureName=n,this.blocked=!1}}},8862:(e,t,n)=>{"use strict";n.d(t,{j:()=>x});var r=n(3325),i=n(234),o=n(5546),a=n(2177),s=n(7894),c=n(8e3),u=n(3960),d=n(385),l=n(50),f=n(3081),g=n(8632),p=n(7144);const h=["setErrorHandler","finished","addToTrace","addRelease","addPageAction","setCurrentRouteName","setPageViewName","setCustomAttribute","interaction","noticeError","setUserId","setApplicationVersion","start","recordReplay","pauseReplay",p.Ef.RECORD,p.Ef.PAUSE],v=["setErrorHandler","finished","addToTrace","addRelease"];function m(){const e=(0,g.gG)();h.forEach((t=>{e[t]=function(){for(var n=arguments.length,r=new Array(n),i=0;i<n;i++)r[i]=arguments[i];return function(t){for(var n=arguments.length,r=new Array(n>1?n-1:0),i=1;i<n;i++)r[i-1]=arguments[i];let o=[];return Object.values(e.initializedAgents).forEach((e=>{e.exposed&&e.api[t]&&o.push(e.api[t](...r))})),o.length>1?o:o[0]}(t,...r)}}))}var b=n(2825);const y=e=>{const t=e.startsWith("http");e+="/",n.p=t?e:"https://"+e};let A=!1;function x(e){let t=arguments.length>1&&void 0!==arguments[1]?arguments[1]:{},h=arguments.length>2?arguments[2]:void 0,x=arguments.length>3?arguments[3]:void 0,{init:w,info:_,loader_config:E,runtime:D={loaderType:h},exposed:S=!0}=t;const k=(0,g.gG)();_||(w=k.init,_=k.info,E=k.loader_config),(0,i.Dg)(e.agentIdentifier,w||{}),(0,i.GE)(e.agentIdentifier,E||{}),_.jsAttributes??={},d.v6&&(_.jsAttributes.isWorker=!0),(0,i.CX)(e.agentIdentifier,_);const R=(0,i.P_)(e.agentIdentifier),N=[_.beacon,_.errorBeacon];A||(R.proxy.assets&&(y(R.proxy.assets),N.push(R.proxy.assets)),R.proxy.beacon&&N.push(R.proxy.beacon),m(),(0,g.EZ)("activatedFeatures",b.T),e.runSoftNavOverSpa&&=!0===R.soft_navigations.enabled&&R.feature_flags.includes("soft_nav")),D.denyList=[...R.ajax.deny_list||[],...R.ajax.block_internal?N:[]],(0,i.sU)(e.agentIdentifier,D),void 0===e.api&&(e.api=function(e,t){let g=arguments.length>2&&void 0!==arguments[2]&&arguments[2];t||(0,c.R)(e,"api");const h={};var m=a.ee.get(e),b=m.get("tracer"),y="api-",A=y+"ixn-";function x(t,n,r,o){const a=(0,i.C5)(e);return null===n?delete a.jsAttributes[t]:(0,i.CX)(e,{...a,jsAttributes:{...a.jsAttributes,[t]:n}}),E(y,r,!0,o||null===n?"session":void 0)(t,n)}function w(){}v.forEach((e=>{h[e]=E(y,e,!0,"api")})),h.addPageAction=E(y,"addPageAction",!0,r.D.pageAction),h.setPageViewName=function(t,n){if("string"==typeof t)return"/"!==t.charAt(0)&&(t="/"+t),(0,i.OP)(e).customTransaction=(n||"http://custom.transaction")+t,E(y,"setPageViewName",!0)()},h.setCustomAttribute=function(e,t){let n=arguments.length>2&&void 0!==arguments[2]&&arguments[2];if("string"==typeof e){if(["string","number","boolean"].includes(typeof t)||null===t)return x(e,t,"setCustomAttribute",n);(0,l.Z)("Failed to execute setCustomAttribute.\nNon-null value must be a string, number or boolean type, but a type of <".concat(typeof t,"> was provided."))}else(0,l.Z)("Failed to execute setCustomAttribute.\nName must be a string type, but a type of <".concat(typeof e,"> was provided."))},h.setUserId=function(e){if("string"==typeof e||null===e)return x("enduser.id",e,"setUserId",!0);(0,l.Z)("Failed to execute setUserId.\nNon-null value must be a string type, but a type of <".concat(typeof e,"> was provided."))},h.setApplicationVersion=function(e){if("string"==typeof e||null===e)return x("application.version",e,"setApplicationVersion",!1);(0,l.Z)("Failed to execute setApplicationVersion. Expected <String | null>, but got <".concat(typeof e,">."))},h.start=e=>{try{const t=e?"defined":"undefined";(0,o.p)(f.xS,["API/start/".concat(t,"/called")],void 0,r.D.metrics,m);const n=Object.values(r.D);if(void 0===e)e=n;else{if((e=Array.isArray(e)&&e.length?e:[e]).some((e=>!n.includes(e))))return(0,l.Z)("Invalid feature name supplied. Acceptable feature names are: ".concat(n));e.includes(r.D.pageViewEvent)||e.push(r.D.pageViewEvent)}e.forEach((e=>{m.emit("".concat(e,"-opt-in"))}))}catch(e){(0,l.Z)("An unexpected issue occurred",e)}},h[p.Ef.RECORD]=function(){(0,o.p)(f.xS,["API/recordReplay/called"],void 0,r.D.metrics,m),(0,o.p)(p.Ef.RECORD,[],void 0,r.D.sessionReplay,m)},h[p.Ef.PAUSE]=function(){(0,o.p)(f.xS,["API/pauseReplay/called"],void 0,r.D.metrics,m),(0,o.p)(p.Ef.PAUSE,[],void 0,r.D.sessionReplay,m)},h.interaction=function(e){return(new w).get("object"==typeof e?e:{})};const _=w.prototype={createTracer:function(e,t){var n={},i=this,a="function"==typeof t;return(0,o.p)(f.xS,["API/createTracer/called"],void 0,r.D.metrics,m),g||(0,o.p)(A+"tracer",[(0,s.z)(),e,n],i,r.D.spa,m),function(){if(b.emit((a?"":"no-")+"fn-start",[(0,s.z)(),i,a],n),a)try{return t.apply(this,arguments)}catch(e){throw b.emit("fn-err",[arguments,this,e],n),e}finally{b.emit("fn-end",[(0,s.z)()],n)}}}};function E(e,t,n,i){return function(){return(0,o.p)(f.xS,["API/"+t+"/called"],void 0,r.D.metrics,m),i&&(0,o.p)(e+t,[(0,s.z)(),...arguments],n?null:this,i,m),n?void 0:this}}function D(){n.e(75).then(n.bind(n,7438)).then((t=>{let{setAPI:n}=t;n(e),(0,c.L)(e,"api")})).catch((()=>{(0,l.Z)("Downloading runtime APIs failed..."),(0,c.L)(e,"api",!0)}))}return["actionText","setName","setAttribute","save","ignore","onEnd","getContext","end","get"].forEach((e=>{_[e]=E(A,e,void 0,g?r.D.softNav:r.D.spa)})),h.setCurrentRouteName=g?E(A,"routeName",void 0,r.D.softNav):E(y,"routeName",!0,r.D.spa),h.noticeError=function(e,t){"string"==typeof e&&(e=new Error(e)),(0,o.p)(f.xS,["API/noticeError/called"],void 0,r.D.metrics,m),(0,o.p)("err",[e,(0,s.z)(),!1,t],void 0,r.D.jserrors,m)},d.il?(0,u.b2)((()=>D()),!0):D(),h}(e.agentIdentifier,x,e.runSoftNavOverSpa)),void 0===e.exposed&&(e.exposed=S),A=!0}},1926:(e,t,n)=>{n.nc=(()=>{try{return document?.currentScript?.nonce}catch(e){}return""})()},3325:(e,t,n)=>{"use strict";n.d(t,{D:()=>r,p:()=>i});const r={ajax:"ajax",jserrors:"jserrors",metrics:"metrics",pageAction:"page_action",pageViewEvent:"page_view_event",pageViewTiming:"page_view_timing",sessionReplay:"session_replay",sessionTrace:"session_trace",softNav:"soft_navigations",spa:"spa"},i={[r.pageViewEvent]:1,[r.pageViewTiming]:2,[r.metrics]:3,[r.jserrors]:4,[r.ajax]:5,[r.sessionTrace]:6,[r.pageAction]:7,[r.spa]:8,[r.softNav]:9,[r.sessionReplay]:10}}},r={};function i(e){var t=r[e];if(void 0!==t)return t.exports;var o=r[e]={exports:{}};return n[e](o,o.exports,i),o.exports}i.m=n,i.d=(e,t)=>{for(var n in t)i.o(t,n)&&!i.o(e,n)&&Object.defineProperty(e,n,{enumerable:!0,get:t[n]})},i.f={},i.e=e=>Promise.all(Object.keys(i.f).reduce(((t,n)=>(i.f[n](e,t),t)),[])),i.u=e=>"nr-rum-1.253.0.min.js",i.o=(e,t)=>Object.prototype.hasOwnProperty.call(e,t),e={},t="NRBA-1.253.0.PROD:",i.l=(n,r,o,a)=>{if(e[n])e[n].push(r);else{var s,c;if(void 0!==o)for(var u=document.getElementsByTagName("script"),d=0;d<u.length;d++){var l=u[d];if(l.getAttribute("src")==n||l.getAttribute("data-webpack")==t+o){s=l;break}}if(!s){c=!0;var f={75:"sha512-9bAiHIPyDQsfH3twE5thQ79NZloqHEfmncprWhfUn+VZFlQhRa05+ziJ9iJfmPRs6DoQA5H7S/VrlzQnvif2nQ=="};(s=document.createElement("script")).charset="utf-8",s.timeout=120,i.nc&&s.setAttribute("nonce",i.nc),s.setAttribute("data-webpack",t+o),s.src=n,0!==s.src.indexOf(window.location.origin+"/")&&(s.crossOrigin="anonymous"),f[a]&&(s.integrity=f[a])}e[n]=[r];var g=(t,r)=>{s.onerror=s.onload=null,clearTimeout(p);var i=e[n];if(delete e[n],s.parentNode&&s.parentNode.removeChild(s),i&&i.forEach((e=>e(r))),t)return t(r)},p=setTimeout(g.bind(null,void 0,{type:"timeout",target:s}),12e4);s.onerror=g.bind(null,s.onerror),s.onload=g.bind(null,s.onload),c&&document.head.appendChild(s)}},i.r=e=>{"undefined"!=typeof Symbol&&Symbol.toStringTag&&Object.defineProperty(e,Symbol.toStringTag,{value:"Module"}),Object.defineProperty(e,"__esModule",{value:!0})},i.p="https://js-agent.newrelic.com/",(()=>{var e={50:0,832:0};i.f.j=(t,n)=>{var r=i.o(e,t)?e[t]:void 0;if(0!==r)if(r)n.push(r[2]);else{var o=new Promise(((n,i)=>r=e[t]=[n,i]));n.push(r[2]=o);var a=i.p+i.u(t),s=new Error;i.l(a,(n=>{if(i.o(e,t)&&(0!==(r=e[t])&&(e[t]=void 0),r)){var o=n&&("load"===n.type?"missing":n.type),a=n&&n.target&&n.target.src;s.message="Loading chunk "+t+" failed.\n("+o+": "+a+")",s.name="ChunkLoadError",s.type=o,s.request=a,r[1](s)}}),"chunk-"+t,t)}};var t=(t,n)=>{var r,o,[a,s,c]=n,u=0;if(a.some((t=>0!==e[t]))){for(r in s)i.o(s,r)&&(i.m[r]=s[r]);if(c)c(i)}for(t&&t(n);u<a.length;u++)o=a[u],i.o(e,o)&&e[o]&&e[o][0](),e[o]=0},n=self["webpackChunk:NRBA-1.253.0.PROD"]=self["webpackChunk:NRBA-1.253.0.PROD"]||[];n.forEach(t.bind(null,0)),n.push=t.bind(null,n.push.bind(n))})(),(()=>{"use strict";i(1926);var e=i(50),t=i(7144),n=i(8929),r=i(4402),o=i(2177);class a{agentIdentifier;observationContext=new n.v;constructor(){let e=arguments.length>0&&void 0!==arguments[0]?arguments[0]:(0,r.ky)(16);this.agentIdentifier=e;o.ee.get(e).observationContext=this.observationContext}#t(t){for(var n=arguments.length,r=new Array(n>1?n-1:0),i=1;i<n;i++)r[i-1]=arguments[i];if("function"==typeof this.api?.[t])return this.api[t](...r);(0,e.Z)("Call to agent api ".concat(t," failed. The API is not currently initialized."))}addPageAction(e,t){return this.#t("addPageAction",e,t)}setPageViewName(e,t){return this.#t("setPageViewName",e,t)}setCustomAttribute(e,t,n){return this.#t("setCustomAttribute",e,t,n)}noticeError(e,t){return this.#t("noticeError",e,t)}setUserId(e){return this.#t("setUserId",e)}setApplicationVersion(e){return this.#t("setApplicationVersion",e)}setErrorHandler(e){return this.#t("setErrorHandler",e)}finished(e){return this.#t("finished",e)}addRelease(e,t){return this.#t("addRelease",e,t)}start(e){return this.#t("start",e)}recordReplay(){return this.#t(t.Ef.RECORD)}pauseReplay(){return this.#t(t.Ef.PAUSE)}addToTrace(e){return this.#t("addToTrace",e)}setCurrentRouteName(e){return this.#t("setCurrentRouteName",e)}interaction(){return this.#t("interaction")}}var s=i(3325),c=i(234);const u=Object.values(s.D);function d(e){const t={};return u.forEach((n=>{t[n]=function(e,t){return!0===(0,c.Mt)(t,"".concat(e,".enabled"))}(n,e)})),t}var l=i(8862);var f=i(8e3),g=i(5938),p=i(3960),h=i(385);const v=e=>h.il&&!0===(0,c.Mt)(e,"privacy.cookies_enabled");function m(e){return c.Yu.MO&&v&&!0===(0,c.Mt)(e,"session_trace.enabled")}class b extends g.W{constructor(e,t,n){let r=!(arguments.length>3&&void 0!==arguments[3])||arguments[3];super(e,t,n),this.auto=r,this.abortHandler=void 0,this.featAggregate=void 0,this.onAggregateImported=void 0,!1===(0,c.Mt)(this.agentIdentifier,"".concat(this.featureName,".autoStart"))&&(this.auto=!1),this.auto&&(0,f.R)(e,n)}importAggregator(){let t,n=arguments.length>0&&void 0!==arguments[0]?arguments[0]:{};if(this.featAggregate)return;if(!this.auto)return void this.ee.on("".concat(this.featureName,"-opt-in"),(()=>{(0,f.R)(this.agentIdentifier,this.featureName),this.auto=!0,this.importAggregator()}));this.onAggregateImported=new Promise((e=>{t=e}));const r=async()=>{let r;try{if(v(this.agentIdentifier)){const{setupAgentSession:e}=await i.e(75).then(i.bind(i,3108));r=e(this.agentIdentifier)}}catch(t){(0,e.Z)("A problem occurred when starting up session manager. This page will not start or extend any session.",t),this.featureName===s.D.sessionReplay&&this.abortHandler?.()}try{if(!this.#n(this.featureName,r))return(0,f.L)(this.agentIdentifier,this.featureName),void t(!1);const{lazyFeatureLoader:e}=await i.e(75).then(i.bind(i,8582)),{Aggregate:o}=await e(this.featureName,"aggregate");this.featAggregate=new o(this.agentIdentifier,this.aggregator,n),t(!0)}catch(n){(0,e.Z)("Downloading and initializing ".concat(this.featureName," failed..."),n),this.abortHandler?.(),(0,f.L)(this.agentIdentifier,this.featureName,!0),t(!1)}};h.il?(0,p.b2)((()=>r()),!0):r()}#n(e,t){return e!==s.D.sessionReplay||(n=this.agentIdentifier,r=t,!(!m(n)||!r?.isNew&&!r?.state.sessionReplayMode));var n,r}}var y=i(7633);class A extends b{static featureName=y.t;constructor(e,t){let n=!(arguments.length>2&&void 0!==arguments[2])||arguments[2];super(e,t,y.t,n),this.importAggregator()}}var x=i(1117),w=i(1284);class _ extends x.w{constructor(e){super(e),this.aggregatedData={}}store(e,t,n,r,i){var o=this.getBucket(e,t,n,i);return o.metrics=function(e,t){t||(t={count:0});return t.count+=1,(0,w.D)(e,(function(e,n){t[e]=E(n,t[e])})),t}(r,o.metrics),o}merge(e,t,n,r,i){var o=this.getBucket(e,t,r,i);if(o.metrics){var a=o.metrics;a.count+=n.count,(0,w.D)(n,(function(e,t){if("count"!==e){var r=a[e],i=n[e];i&&!i.c?a[e]=E(i.t,r):a[e]=function(e,t){if(!t)return e;t.c||(t=D(t.t));return t.min=Math.min(e.min,t.min),t.max=Math.max(e.max,t.max),t.t+=e.t,t.sos+=e.sos,t.c+=e.c,t}(i,a[e])}}))}else o.metrics=n}storeMetric(e,t,n,r){var i=this.getBucket(e,t,n);return i.stats=E(r,i.stats),i}getBucket(e,t,n,r){this.aggregatedData[e]||(this.aggregatedData[e]={});var i=this.aggregatedData[e][t];return i||(i=this.aggregatedData[e][t]={params:n||{}},r&&(i.custom=r)),i}get(e,t){return t?this.aggregatedData[e]&&this.aggregatedData[e][t]:this.aggregatedData[e]}take(e){for(var t={},n="",r=!1,i=0;i<e.length;i++)t[n=e[i]]=Object.values(this.aggregatedData[n]||{}),t[n].length&&(r=!0),delete this.aggregatedData[n];return r?t:null}}function E(e,t){return null==e?function(e){e?e.c++:e={c:1};return e}(t):t?(t.c||(t=D(t.t)),t.c+=1,t.t+=e,t.sos+=e*e,e>t.max&&(t.max=e),e<t.min&&(t.min=e),t):{t:e}}function D(e){return{t:e,min:e,max:e,sos:e*e,c:1}}var S=i(8632),k=i(4351);var R=i(5546),N=i(7956),C=i(3239),j=i(7894),I=i(9251);class O extends b{static featureName=I.t;constructor(e,t){let n=!(arguments.length>2&&void 0!==arguments[2])||arguments[2];super(e,t,I.t,n),h.il&&((0,N.N)((()=>(0,R.p)("docHidden",[(0,j.z)()],void 0,I.t,this.ee)),!0),(0,C.bP)("pagehide",(()=>(0,R.p)("winPagehide",[(0,j.z)()],void 0,I.t,this.ee))),this.importAggregator())}}var T=i(3081);class P extends b{static featureName=T.t9;constructor(e,t){let n=!(arguments.length>2&&void 0!==arguments[2])||arguments[2];super(e,t,T.t9,n),this.importAggregator()}}new class extends a{constructor(t,n){super(n),h._A?(this.sharedAggregator=new _({agentIdentifier:this.agentIdentifier}),this.features={},(0,S.h5)(this.agentIdentifier,this),this.desiredFeatures=new Set(t.features||[]),this.desiredFeatures.add(A),this.runSoftNavOverSpa=[...this.desiredFeatures].some((e=>e.featureName===s.D.softNav)),(0,l.j)(this,t,t.loaderType||"agent"),this.run()):(0,e.Z)("Failed to initial the agent. Could not determine the runtime environment.")}get config(){return{info:this.info,init:this.init,loader_config:this.loader_config,runtime:this.runtime}}run(){try{const t=d(this.agentIdentifier),n=[...this.desiredFeatures];n.sort(((e,t)=>s.p[e.featureName]-s.p[t.featureName])),n.forEach((n=>{if(!t[n.featureName]&&n.featureName!==s.D.pageViewEvent)return;if(this.runSoftNavOverSpa&&n.featureName===s.D.spa)return;if(!this.runSoftNavOverSpa&&n.featureName===s.D.softNav)return;const r=function(e){switch(e){case s.D.ajax:return[s.D.jserrors];case s.D.sessionTrace:return[s.D.ajax,s.D.pageViewEvent];case s.D.sessionReplay:return[s.D.sessionTrace];case s.D.pageViewTiming:return[s.D.pageViewEvent];default:return[]}}(n.featureName);r.every((e=>e in this.features))||(0,e.Z)("".concat(n.featureName," is enabled but one or more dependent features has not been initialized (").concat((0,k.P)(r),"). This may cause unintended consequences or missing data...")),this.features[n.featureName]=new n(this.agentIdentifier,this.sharedAggregator)}))}catch(t){(0,e.Z)("Failed to initialize all enabled instrument classes (agent aborted) -",t);for(const e in this.features)this.features[e].abortHandler?.();const n=(0,S.fP)();return delete n.initializedAgents[this.agentIdentifier]?.api,delete n.initializedAgents[this.agentIdentifier]?.features,delete this.sharedAggregator,n.ee?.abort(),delete n.ee?.get(this.agentIdentifier),!1}}}({features:[A,O,P],loaderType:"lite"})})()})();</script>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<meta property="og:url" content="https://www.publicdomainvectors.org" />
+<link rel="icon" href="/favicon.ico">
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-T3GDPG2WBR"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-T3GDPG2WBR');
+</script>
+
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-MPCGQMH');</script>
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=GA_MEASUREMENT_ID"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){window.dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+gtag('set', {'experiments': [{'id': 'JEmVEgSKRfi2QfbGy-zrew', 'variant': '1'}]})
+  gtag('config', 'GA_MEASUREMENT_ID');
+</script>
+<title>Vektör küçük resmini parçalı bulutlu gökyüzü hava tahmini renk simgesi | Halka açık vektörler </title>
+<meta name="description" content="Parçalı bulutlu gökyüzü için hava tahmini renk sembol vektör görüntüsü. Hava harita işareti Illustration.">
+<link rel="canonical" href="https://publicdomainvectors.org/tr/bedava-vektor/Vekt%C3%B6r-k%C3%BC%C3%A7%C3%BCk-resmini-par%C3%A7al%C4%B1-bulutlu-g%C3%B6ky%C3%BCz%C3%BC-hava-tahmini-renk-simgesi/18964.html" />
+
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700" rel="stylesheet" type="text/css">
+<link href="/css/bootstrap.min.css" rel="stylesheet">
+<link href="/include/style-5.css" rel="stylesheet">
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+ var js, fjs = d.getElementsByTagName(s)[0];
+ if (d.getElementById(id)) return;
+ js = d.createElement(s); js.id = id;
+ js.src = "//connect.facebook.net/en_GB/all.js#xfbml=1&appId=147048952124712";
+ fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+<!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MPCGQMH"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<nav class="navbar navbar-inverse navbar-main">
+<div class="container-fluid">
+<div class="navbar-header">
+<a class="navbar-brand" href="/">
+<img src="/img/logo_mali.png" class="logo" width="284" height="25" alt>
+</a>
+</div>
+<div id="navbar">
+<div class="navbar-right">
+<div class="dropdown">
+<span class="dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+Dili değiştir </span>
+<ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+<li><a rel="alternate" hreflang="ar" href="/ar/naqil-hurin/ناقلات-قصاصة-فنية-من-الطقس-التنبؤ-رمز-اللون-للسماء-غائم-جزئيا/18964.html">eurbaa</a> </li><li><a rel="alternate" hreflang="cs" href="/cs/volnych-vektoru/Vektor-Klipart-předpověď-počasí-barva-symbolu-pro-částečně-zamračená-obloha/18964.html">Český</a> </li><li><a rel="alternate" hreflang="de" href="/de/kostenlose-vektorgrafiken/Vektor-ClipArts-von-Wettervorhersage-Farbe-Symbol-für-teilweise-bewölkten-Himmel/18964.html">Deutsch</a> </li><li><a rel="alternate" hreflang="en" href="/en/free-clipart/Vector-clip-art-of-weather-forecast-color-symbol-for-partly-cloudy-sky/18964.html">English</a> </li><li><a rel="alternate" hreflang="es" href="/es/vectoriales-gratuitas/Imágenes-Prediseñadas-Vector-del-símbolo-de-color-de-Previsión-del-tiempo-para-el-cielo-parcialmente-nublado/18964.html">Español</a> </li><li><a rel="alternate" hreflang="fi" href="/fi/vapaa-vektori/Vektori-ClipArt-sääennusteen-värisymboli-osittain-pilvinen-taivas/18964.html">Suomalainen</a> </li><li><a rel="alternate" hreflang="fr" href="/fr/gratuitement-des-vecteurs/Vector-images-clipart-de-prévisions-météo-symbole-couleur-ciel-partiellement-nuageux/18964.html">Français</a> </li><li><a rel="alternate" hreflang="he" href="/he/קליפרט חינם/וקטור-אוסף-תמונות-של-הסמל-צבע-תחזית-מזג-האוויר-מעונן-שמיים/18964.html">עִברִית</a> </li><li><a rel="alternate" hreflang="hi" href="/hi/शुल्कअनज़िपऔजार/आंशिक-रूप-से-बादल-छाए-रहेंगे-स्काई-के-लिए-मौसम-का-पूर्वानुमान-रंग-प्रतीक-के-वेक्टर-क्लिप-आर्ट/18964.html">हिंदी</a> </li><li><a rel="alternate" hreflang="id" href="/id/bebas-vektor/Vektor-seni-klip-simbol-warna-ramalan-cuaca-berawan-sky/18964.html">Indonesia</a> </li><li><a rel="alternate" hreflang="it" href="/it/vettoriali-gratuiti/ClipArt-vettoriali-di-previsioni-meteo-simbolo-di-colore-per-cielo-nuvoloso/18964.html">Italiano</a> </li><li><a rel="alternate" hreflang="ja" href="/ja/無料クリップアート/曇り空の天気予報カラー-シンボルのベクター-クリップ-アート/18964.html">日本語</a> </li><li><a rel="alternate" hreflang="ko" href="/ko/무료 클립아트/부분적으로-흐린-하늘에-대-한-일기-예보-색상-상징의-벡터-클립-아트/18964.html">한국어</a> </li><li><a rel="alternate" hreflang="nl" href="/nl/vrije-vectoren/Vector-illustraties-van-weerbericht-kleur-symbool-voor-gedeeltelijk-bewolkte-hemel/18964.html">Nederlands</a> </li><li><a rel="alternate" hreflang="no" href="/no/gratis-vektorbilder/Vektorgrafikk-utklipp-av-værmeldingen-farge-symbolet-for-Delvis-skyet-himmel/18964.html">Norsk</a> </li><li><a rel="alternate" hreflang="pl" href="/pl/wektorow-swobodnych/Wektor-clipart-Prognoza-pogody-kolor-symbolu-pochmurno-niebo/18964.html">Polski</a> </li><li><a rel="alternate" hreflang="pt" href="/pt/vetorial-gratis/Clipart-vetorial-de-símbolo-de-cor-previsão-de-céu-parcialmente-nublado/18964.html">Português</a> </li><li><a rel="alternate" hreflang="ro" href="/ro/vectori-gratuite/Vector-miniaturi-de-prognoza-meteo-culoare-simbol-pentru-cer-parţial-înnorat/18964.html">Romana</a> </li><li><a rel="alternate" hreflang="ru" href="/ru/бесплатные-векторы/Векторные-картинки-прогноз-погоды-цвет-символа-для-Пасмурно-небо/18964.html">Русский</a> </li><li><a rel="alternate" hreflang="sv" href="/sv/fria-vektorer/Vektor-ClipArt-väderprognos-färg-symbol-för-delvis-molnig-himmel/18964.html">Svenska</a> </li><li><a rel="alternate" hreflang="tr" href="/tr/bedava-vektor/Vektör-küçük-resmini-parçalı-bulutlu-gökyüzü-hava-tahmini-renk-simgesi/18964.html">Türkçe</a> </li><li><a rel="alternate" hreflang="zh-CHS" href="/zh-CHS/免费剪贴/天气预报晴间多云的天空颜色符号向量剪贴画/18964.html">中文</a> </li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</nav>
+<nav class="navbar navbar-default main-menu">
+<div class="container-fluid">
+<div class="row-fluid">
+
+<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false" aria-controls="navbar">
+<span class="sr-only">Toggle navigation</span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+</button>
+<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+<ul class="nav navbar-nav">
+<li><a href="https://publicdomainvectors.org/tr/" class="home active" href="#"><i class="icon-home"></i>Anasayfa </a> </li>
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Vektörler <span class="caret"></span></a>
+<ul class="dropdown-menu">
+<li><a href="/tr/bedava-vektor/Arka Planlar/">Arka Planlar</a> </li><li><a href="/tr/bedava-vektor/Bayraklar/">Bayraklar</a> </li><li><a href="/tr/bedava-vektor/Doga/">Doğa</a> </li><li><a href="/tr/bedava-vektor/Hayvanlar/">Hayvanlar</a> </li><li><a href="/tr/bedava-vektor/Insanlar/">İnsanlar</a> </li><li><a href="/tr/bedava-vektor/Is/">İş</a> </li><li><a href="/tr/bedava-vektor/Isaretler-Simgeler/">İşaretler-Simgeler</a> </li><li><a href="/tr/bedava-vektor/Mimari/">Mimari</a> </li><li><a href="/tr/bedava-vektor/Nesneler/">Nesneler</a> </li><li><a href="/tr/bedava-vektor/Ulasım/">Ulaşım</a> </li><li><a href="/tr/bedava-vektor/Yiyecek ve icecek/">Yiyecek ve içecek</a> </li>
+</ul>
+</li>
+<li><a class href="/tr/halka-acık/">Halka açık</a></li>
+
+<li><a href="/svg-generator.php">SVG generator</a> </li>
+<li><a href="https://svgeditor.publicdomainvectors.org/dist/editor/" target="_blank">SVG Editor</a> </li>
+</ul>
+<div class="nav navbar-nav navbar-right">
+
+<div class="fb-like" data-href="https://www.publicdomainvectors.org/" data-width="80" data-layout="button_count" data-action="like" data-show-faces="false" data-share="false"></div>
+</div>
+</div>
+</div>
+</div>
+</nav>
+<div class="container-fluid baner">
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+<ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-4767662663033227" data-ad-slot="6489438576" data-ad-format="auto" data-full-width-responsive="true"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+<script>
+    gtag('event', 'experiment_impression', {
+      'experiment_id': 'JEmVEgSKRfi2QfbGy-zrew',
+      'variant_id': 'JEmVEgSKRfi2QfbGy-zrew.1-0',
+      'send_to': 'GTM-MPCGQMH',
+    });
+  </script>
+</div>
+<div class="container-fluid">
+
+<div class="row-fluid main-container">
+<div class="main-body-wrapper">
+<div class="main-body">
+<div class="page-title-wrapper">
+<div class="page-title col-lg-6">
+<h1> Vektör küçük resmini parçalı bulutlu gökyüzü hava tahmini renk simgesi</h1>
+</div>
+<div class="search-page col-lg-6">
+<form class="search-form" id="searchforma" action="/search.php">
+<div class="form-group">
+<input name="searchterm" type="text" placeholder="Aramayı Burada Yapın..." class="form-control" id="search" />
+<input name="lang" type="hidden" value="tr">
+</div>
+</form>
+</div>
+</div>
+<div class="row-fluid detail-wrapper">
+<div itemscope itemtype="http://schema.org/ImageObject">
+<meta itemprop="license" content="https://creativecommons.org/publicdomain/zero/1.0/">
+<meta itemprop="description" content="Parçalı bulutlu gökyüzü için hava tahmini renk sembol vektör görüntüsü. Hava harita işareti Illustration.">
+<meta itemprop="acquireLicensePage" content="https://publicdomainvectors.org/en/public-domain/">
+<meta itemprop="isAccessibleForFree" content="true">
+<meta itemprop="isFamilyFriendly" content="true">
+<meta itemprop="representativeOfPage" content="true">
+<meta itemprop="thumbnailUrl" content="https://publicdomainvectors.org/tn_img/sivvus_weather_symbols_2.webp">
+<meta itemprop="contentUrl" content="https://publicdomainvectors.org/photos/sivvus_weather_symbols_2.png">
+<meta itemprop="caption" content=" Vektör küçük resmini parçalı bulutlu gökyüzü hava tahmini renk simgesi">
+</div>
+<div class="main-image">
+<div class="main-image-photo text-center">
+<img src="/photos/sivvus_weather_symbols_2.png" alt="Vektör küçük resmini parçalı bulutlu gökyüzü hava tahmini renk simgesi" width="500px" height="463px" class="vec_veliki">
+<div class="sharebuttons">
+<img src="/img/icon-share.jpg" alt usemap="#share">
+<map name="share">
+<area shape="rect" coords="0,0,53,40" href="https://twitter.com/share?text=Parçalı bulutlu gökyüzü için hava tahmini renk sembol vektör görüntüsü. Hava harita işareti Illustration." alt="Twitter">
+<area shape="rect" coords="0,0,108,40" <a href="#" onclick="    window.open(
+      'https://www.facebook.com/sharer/sharer.php?u='+encodeURIComponent(location.href), 
+      'facebook-share-dialog', 
+      'width=626,height=436'); 
+    return false;" alt="FB">
+<area shape="rect" coords="0,0,161,40" href=" http://pinterest.com/pin/create/button/?url=https%3A%2F%2Fpublicdomainvectors.org%2Ftr%2Fbedava-vektor%2FVekt%25C3%25B6r-k%25C3%25BC%25C3%25A7%25C3%25BCk-resmini-par%25C3%25A7al%25C4%25B1-bulutlu-g%25C3%25B6ky%25C3%25BCz%25C3%25BC-hava-tahmini-renk-simgesi%2F18964.html&media=https%3A%2F%2Fpublicdomainvectors.org%2Fphotos%2Fsivvus_weather_symbols_2.png&description=PublicDomainVectors.org-Vektör küçük resmini parçalı bulutlu gökyüzü hava tahmini renk simgesi" target="_blank" alt="Pinterest">
+</map>
+</div>
+</div>
+</div>
+<div class="sponsored-main-detail">
+<div class="istock-main-detail">
+<div class="istock">
+<div class="istock-header"><img src="/img/adobelogo1.png" alt>
+<p>
+<a target="_blank" href="https://adobe.prf.hn/click/camref:1101lr4Ha/creativeref:1101l89809/screativeref:1101l148206">Get 10 Adobe Stock standard assets</a> </p>
+<div class="clearfix"></div>
+</div>
+<div class="istock-img">
+<div class="clearfix"></div>
+</div>
+<div class="clearfix"></div>
+</div>
+</div>
+<div class="download">
+<a href="/download.php?file=sivvus_weather_symbols_2.svg" class="btn btn-green btn-lg">
+İndir </a>
+</div>
+</div>
+<div class="vector-details">
+<div class="row">
+<div class="col-sm-12">
+<h4>Açıklama </h4>
+<p>
+Parçalı bulutlu gökyüzü için hava tahmini renk sembol vektör görüntüsü. Hava harita işareti Illustration. </p>
+</div>
+</div>
+<div class="row">
+<div class="col-sm-12">
+<h4>Kategoriler</h4>
+<p>
+<a href="/tr/bedava-vektor/Doga">Doğa</a>,<a href="/tr/bedava-vektor/Isaretler-Simgeler">İşaretler-Simgeler</a> </p>
+</div>
+</div>
+<div class="row">
+<div class="col-sm-12">
+<h4>Lisans </h4>
+<p>
+<a about="https://publicdomainvectors.org/photos/sivvus_weather_symbols_2.png" rel="license" href="https://creativecommons.org/publicdomain/zero/1.0/" rel="nofollow" target="_blank"> Halka aç?k </a></p>
+</div>
+</div>
+<div class="row">
+<div class="col-lg-6">
+<h4>Teknik özellikler</h4>
+<p><span class="glyphicon glyphicon-hdd" aria-hidden="true"></span>
+0.02 MB</p>
+<p><span class="glyphicon glyphicon-time" aria-hidden="true"></span>
+2014-12-13 </p>
+<p><span class="glyphicon glyphicon-download" aria-hidden="true"></span>
+1916 </p>
+</div>
+<div class="col-lg-6">
+<h4> Kaynak</h4>
+<p>
+<a href="http://openclipart.org/detail/18892/-by--18892" target="_blank" rel="nofollow">Openclipart</a> </p>
+</div>
+</div>
+<div class="row single-tags">
+<div class="col-sm-12">
+<h4>Etiketler</h4>
+<div class="single-vector-tags">
+<span><a href="/tr/tag/Hava-sembolü"> Hava sembolü</a></span> <span><a href="/tr/tag/meteoroloji"> meteoroloji</a></span> <span><a href="/tr/tag/güneş"> güneş</a></span> <span><a href="/tr/tag/bulut"> bulut</a></span> <span><a href="/tr/tag/küçük-resim"> küçük resim</a></span> <span><a href="/tr/tag/clipart"> clipart</a></span> <span><a href="/tr/tag/simge"> simge</a></span> <span><a href="/tr/tag/svg"> svg</a></span> <span><a href="/tr/tag/sembol"> sembol</a></span> <span><a href="/tr/tag/hava-durumu"> hava durumu</a></span> <span><a href="/tr/tag/işaret"> işaret</a></span> <span><a href="/tr/tag/renk"> renk</a></span> <span><a href="/tr/tag/iklim"> iklim</a></span> <span><a href="/tr/tag/Web-sitesi"> Web sitesi</a></span> <span><a href="/tr/tag/web"> web</a></span> <span><a href="/tr/tag/bulutlar"> bulutlar</a></span> <span><a href="/tr/tag/bulut"> bulut</a></span> <span><a href="/tr/tag/güneşli"> güneşli</a></span> <span><a href="/tr/tag/Kuru"> Kuru</a></span> <span><a href="/tr/tag/kısmen"> kısmen</a></span> <span><a href="/tr/tag/bulutlu"> bulutlu</a></span> </div>
+</div>
+</div>
+</div>
+</div>
+<div class="clearfix"></div>
+<div id="single-tags-narrow">
+<h3>Etiketler</h3>
+<div class="single-vector-tags">
+<span><a href="/tr/tag/Hava-sembolü"> Hava sembolü</a></span> <span><a href="/tr/tag/meteoroloji"> meteoroloji</a></span> <span><a href="/tr/tag/güneş"> güneş</a></span> <span><a href="/tr/tag/bulut"> bulut</a></span> <span><a href="/tr/tag/küçük-resim"> küçük resim</a></span> <span><a href="/tr/tag/clipart"> clipart</a></span> <span><a href="/tr/tag/simge"> simge</a></span> <span><a href="/tr/tag/svg"> svg</a></span> <span><a href="/tr/tag/sembol"> sembol</a></span> <span><a href="/tr/tag/hava-durumu"> hava durumu</a></span> <span><a href="/tr/tag/işaret"> işaret</a></span> <span><a href="/tr/tag/renk"> renk</a></span> <span><a href="/tr/tag/iklim"> iklim</a></span> <span><a href="/tr/tag/Web-sitesi"> Web sitesi</a></span> <span><a href="/tr/tag/web"> web</a></span> <span><a href="/tr/tag/bulutlar"> bulutlar</a></span> <span><a href="/tr/tag/bulut"> bulut</a></span> <span><a href="/tr/tag/güneşli"> güneşli</a></span> <span><a href="/tr/tag/Kuru"> Kuru</a></span> <span><a href="/tr/tag/kısmen"> kısmen</a></span> <span><a href="/tr/tag/bulutlu"> bulutlu</a></span> </div>
+</div>
+<div id="similar-searches">
+<h3>Benzer aramalar</h3>
+<div>
+<span><a href="/tr/ücretsiz-hava-hava-temizleyici-vektör">ücretsiz hava hava temizleyici vektör</a></span> <span><a href="/tr/Ücretsiz-Mavi-gökyüzü-vektör">Ücretsiz Mavi gökyüzü vektör</a></span> <span><a href="/tr/Hava-Kuvvetleri-wings-vektör-özgür">Hava Kuvvetleri wings vektör özgür</a></span> <span><a href="/tr/Ücretsiz-Hava-Kuvvetleri-logo-vektör">Ücretsiz Hava Kuvvetleri logo vektör</a></span> <span><a href="/tr/Ücretsiz-Hava-Kuvvetleri-vektör">Ücretsiz Hava Kuvvetleri vektör</a></span> <span><a href="/tr/Ücretsiz-Hava-Kuvvetleri-vektör-sanat">Ücretsiz Hava Kuvvetleri vektör sanat</a></span> <span><a href="/tr/Ücretsiz-Hava-Kuvvetleri-vektör-kontrol">Ücretsiz Hava Kuvvetleri vektör kontrol</a></span> <span><a href="/tr/Ücretsiz-Hava-Kuvvetleri-vektör-golf-topları">Ücretsiz Hava Kuvvetleri vektör golf topları</a></span> <span><a href="/tr/Ücretsiz-Hava-Kuvvetleri-vektör-grafikleri">Ücretsiz Hava Kuvvetleri vektör grafikleri</a></span> <span><a href="/tr/Ücretsiz-Hava-Kuvvetleri-vektör-logosu">Ücretsiz Hava Kuvvetleri vektör logosu</a></span> <span><a href="/tr/Hava-Kuvvetleri-vektör-özgür">Hava Kuvvetleri vektör özgür</a></span> <span><a href="/tr/Ücretsiz-Hava-Kuvvetleri-programları-vektör">Ücretsiz Hava Kuvvetleri programları vektör</a></span> <span><a href="/tr/ücretsiz-hava-ücretsiz-araç-vektör-sanat">ücretsiz hava ücretsiz araç vektör sanat</a></span> <span><a href="/tr/ücretsiz-hava-ücretsiz-araç-vektör-şablonları">ücretsiz hava ücretsiz araç vektör şablonları</a></span> <span><a href="/tr/Hava-üç-tekerlekli-araç-vektör-özgür">Hava üç tekerlekli araç vektör özgür</a></span> </div>
+</div>
+<div id="vectors" class="related-vectors">
+<h3> Benzer ücretsiz vektörler</h3>
+<div class="vector text-center"><div class="vector-thumbnail-wrap"><a href="/tr/bedava-vektor/Bulutlu-gökyüzü-vektör-grafik-için-renk-hava-tahmini-simgesi/18957.html"><img src="/tn_related/weather-overcast.webp" class="vector-thumbnail" alt="Bulutlu gökyüzü vektör grafik için renk hava tahmini simgesi" /></a></div></div><div class="vector text-center"><div class="vector-thumbnail-wrap"><a href="/tr/bedava-vektor/Güneşli-aralıkları-için-renk-hava-tahmini-simge-vektör-görüntü/18959.html"><img src="/tn_related/weather-few-clouds.webp" class="vector-thumbnail" alt="Güneşli aralıkları için renk hava tahmini simge vektör görüntü" /></a></div></div><div class="vector text-center"><div class="vector-thumbnail-wrap"><a href="/tr/bedava-vektor/Vektör-çizim-rengi-hava-tahmini-simgesi-için-güneşli-gökyüzü/18961.html"><img src="/tn_related/weather-clear.webp" class="vector-thumbnail" alt="Vektör çizim rengi hava tahmini simgesi için güneşli gökyüzü" /></a></div></div><div class="vector text-center"><div class="vector-thumbnail-wrap"><a href="/tr/bedava-vektor/Bulutlu-gökyüzü-için-hava-tahmini-renk-sembol-vektör-çizim/18965.html"><img src="/tn_related/sivvus_weather_symbols_3.webp" class="vector-thumbnail" alt="Bulutlu gökyüzü için hava tahmini renk sembol vektör çizim" /></a></div></div><div class="vector text-center"><div class="vector-thumbnail-wrap"><a href="/tr/bedava-vektor/Hava-tahmini-renk-sembol-buz-yağmur-için-vektör-grafikleri/18967.html"><img src="/tn_related/spite_weather_symbols_template.webp" class="vector-thumbnail" alt="Hava tahmini renk sembol buz yağmur için vektör grafikleri" /></a></div></div><div class="vector text-center"><div class="vector-thumbnail-wrap"><a href="/tr/bedava-vektor/Hava-tahmini-renk-sembol-thunder-sky-için-vektör-görüntü/18969.html"><img src="/tn_related/thunder.webp" class="vector-thumbnail" alt="Hava tahmini renk sembol thunder sky için vektör görüntü" /></a></div></div><div class="vector text-center"><div class="vector-thumbnail-wrap"><a href="/tr/bedava-vektor/Vektör-çizimi-için-hava-tahmini-renk-sembol-yağmur-ile-güneşli/18970.html"><img src="/tn_related/sun_rain.webp" class="vector-thumbnail" alt="Vektör çizimi için hava tahmini renk sembol yağmur ile güneşli" /></a></div></div><div class="vector text-center"><div class="vector-thumbnail-wrap"><a href="/tr/bedava-vektor/İçin-Clear-için-güneşli-gökyüzü-hava-tahmini-renk-sembol-çizim-vektör/18971.html"><img src="/tn_related/sunny_to_cloudy.webp" class="vector-thumbnail" alt="İçin Clear için güneşli gökyüzü hava tahmini renk sembol çizim vektör" /></a></div></div><div class="vector text-center"><div class="vector-thumbnail-wrap"><a href="/tr/bedava-vektor/Kasırga-için-hava-tahmini-renk-sembol-vektör-küçük-resmini/18973.html"><img src="/tn_related/stormy.webp" class="vector-thumbnail" alt="Kasırga için hava tahmini renk sembol vektör küçük resmini" /></a></div></div><div class="vector text-center"><div class="vector-thumbnail-wrap"><a href="/tr/bedava-vektor/Bulutlu-gökyüzü-hava-tahmini-renk-sembol-çizim-vektör/18976.html"><img src="/tn_related/overcast.webp" class="vector-thumbnail" alt="Bulutlu gökyüzü hava tahmini renk sembol çizim vektör" /></a></div></div><div class="vector text-center"><div class="vector-thumbnail-wrap"><a href="/tr/bedava-vektor/Vektör-küçük-resim-hava-tahmini-renk-sembol-ağır-duş-için/18978.html"><img src="/tn_related/heavy_rain.webp" class="vector-thumbnail" alt="Vektör küçük resim hava tahmini renk sembol ağır duş için" /></a></div></div><div class="vector text-center"><div class="vector-thumbnail-wrap"><a href="/tr/bedava-vektor/Hava-tahmini-renk-sembol-full-Moon-vektör-çizim/18980.html"><img src="/tn_related/full_moon.webp" class="vector-thumbnail" alt="Hava tahmini renk sembol full Moon vektör çizim" /></a></div></div><div class="vector text-center"><div class="vector-thumbnail-wrap"><a href="/tr/bedava-vektor/Hava-tahmini-renk-sembolü-Hilal-için-çizim-vektörel/18983.html"><img src="/tn_related/crescent.webp" class="vector-thumbnail" alt="Hava tahmini renk sembolü Hilal için çizim vektörel" /></a></div></div><div class="vector text-center"><div class="vector-thumbnail-wrap"><a href="/tr/bedava-vektor/Hava-tahmini-renk-sembol-hafif-bulut-cove-için-vektör-küçük-resim/18985.html"><img src="/tn_related/1339686466.webp" class="vector-thumbnail" alt="Hava tahmini renk sembol hafif bulut cove için vektör küçük resim" /></a></div></div><div class="vector text-center"><div class="vector-thumbnail-wrap"><a href="/tr/bedava-vektor/Yarım-ay-için-hava-tahmini-renk-sembol-vektör-görüntü/18979.html"><img src="/tn_related/half_moon.webp" class="vector-thumbnail" alt="Yarım ay için hava tahmini renk sembol vektör görüntü" /></a></div></div><div class="vector text-center"><div class="vector-thumbnail-wrap"><a href="/tr/bedava-vektor/Parçalı-bulutlu-gökyüzü-vektör-grafik-için-renk-sembol/19203.html"><img src="/tn_related/semicloudyday.webp" class="vector-thumbnail" alt="Parçalı bulutlu gökyüzü vektör grafik için renk sembol" /></a></div></div><div class="vector text-center"><div class="vector-thumbnail-wrap"><a href="/tr/bedava-vektor/Harf-ve-rakam-vektör-çizim-seçimi/25955.html"><img src="/tn_related/arial-shiny.webp" class="vector-thumbnail" alt="Harf ve rakam vektör çizim seçimi" /></a></div></div><div class="vector text-center"><div class="vector-thumbnail-wrap"><a href="/tr/bedava-vektor/Işık-gece-vektör-küçük-resim-bulutlara-için-renk-hava-tahmini-simgesi/18958.html"><img src="/tn_related/weather-few-clouds-night.webp" class="vector-thumbnail" alt="Işık gece vektör küçük resim bulutlara için renk hava tahmini simgesi" /></a></div></div>
+<div class="clearfix"></div>
+</div>
+<div class="sponsored-row sponsored sponsored-detail">
+<div class="istock">
+<div class="istock-header">
+<img src="/img/adobelogo1.png">
+<p>
+Sponsor Vektörler - <a target="_blank" href="https://adobe.prf.hn/click/camref:1101lr4Ha/creativeref:1101l89809/screativeref:1101l148206">Get 10 Adobe Stock standard assets</a>
+</p>
+</div>
+<div class="istock-img">
+<div class="istockmjesto">    </div>
+<p class="istock-more">
+</p>
+<div class="clearfix"></div>
+</div>
+<div class="clearfix"></div>
+</div>
+<div class="clearfix"></div>
+</div>
+</div>
+</div>
+<div class="sidebar-wrapper">
+<div class="sidebar-element">
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+<ins class="adsbygoogle" style="display:inline-block;width:300px;height:600px" data-ad-client="ca-pub-4767662663033227" data-ad-slot="9806948626"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</div>
+<div class="sidebar-element">
+<script type="text/javascript" src="https://adobe-creative.prf.hn/creative/camref:1101lr4Ha/creativeref:1011l90750"></script> </div>
+<div>
+
+<script type="text/javascript" src="https://adobe-creative.prf.hn/creative/camref:1101lr4Ha/creativeref:1101l89809"></script>
+
+</div>
+<div class="sidebar-element contribute">
+<h3> </h3>
+<p> </p>
+</div>
+</div> </div>
+<div class="clearfix"></div>
+</div>
+<footer>
+<div class="container-fluid">
+<div class="row-fluid">
+<div class="footer-column">
+<h4>Linkler</h4>
+<ul>
+<li><a class href="/tr/hakkımızda/">Hakkımızda</a></li><li><a class href="/tr/halka-acık/">Halka açık</a></li>
+<li><a href="/cdn-cgi/l/email-protection#2e594b4c434f5d5a4b5c6e5e5b4c42474d4a41434f4740584b4d5a415c5d00415c49">iletisim</a> </li>
+</ul>
+</div>
+<div class="footer-column">
+<h4> Kullanışlı Araçlar</h4>
+<ul>
+<li><a rel="nofollow" href="http://www.7-zip.org/">Free Unzip Tool</a> </li>
+<li><a rel="nofollow" href="http://inkscape.org/">Inkscape</a> </li>
+<li><a rel="nofollow" href="http://www.adobe.com/products/illustrator.html">Illustrator</a> </li>
+<li><a rel="nofollow" href="http://www.corel.com/corel/product/index.jsp?pid=prod4260069&cid=catalog20038&segid=10700003&storeKey=us&languageCode=en">CorelDRAW</a> </li>
+<li><a rel="nofollow" href="http://openclipart.org/">Openclipart</a> </li>
+<li><a rel="nofollow" href="https://www.123freevectors.com/">123freevectors</a> </li>
+<li><a rel="nofollow" href="https://photy.org/">Free backgrounds</a> </li>
+<li><a href="https://freesvg.org" target="_blank" rel="nofollow">Free SVG</a></li>
+</ul>
+</div>
+<div class="footer-column">
+<h4> Hakkımızda</h4>
+<p><p>Publicdomainvectors.org pop&uuml;ler .eps, .svg, .ai ve .cdr formatlarında telifsiz vekt&ouml;r g&ouml;rselleri sunar. Siteye y&uuml;klemede bulunanlar vekt&ouml;r g&ouml;rsellerinin t&uuml;m telif haklarından yasalar uyarınca m&uuml;mk&uuml;n olduğu kadarıyla vazge&ccedil;erler. G&ouml;rselleri izin almadan, sınırsız ticari ama&ccedil; i&ccedil;in &nbsp;d&uuml;zenlemekte, dağıtmakta ve kullanmakta &ouml;zg&uuml;rs&uuml;n&uuml;z. Kesinlikle zorunlu olmasa da web sitemize linkle g&ouml;nderme yapılmasını ve web sitemizden s&ouml;z edilmesini takdir ediyoruz.&nbsp;</p></p> </div>
+<div class="footer-column">
+<h4> Kategoriler </h4>
+<ul>
+<li><a href="/tr/bedava-vektor/Arka Planlar/">Arka Planlar</a> </li><li><a href="/tr/bedava-vektor/Bayraklar/">Bayraklar</a> </li><li><a href="/tr/bedava-vektor/Doga/">Doğa</a> </li><li><a href="/tr/bedava-vektor/Hayvanlar/">Hayvanlar</a> </li><li><a href="/tr/bedava-vektor/Insanlar/">İnsanlar</a> </li><li><a href="/tr/bedava-vektor/Is/">İş</a> </li><li><a href="/tr/bedava-vektor/Isaretler-Simgeler/">İşaretler-Simgeler</a> </li><li><a href="/tr/bedava-vektor/Mimari/">Mimari</a> </li><li><a href="/tr/bedava-vektor/Nesneler/">Nesneler</a> </li><li><a href="/tr/bedava-vektor/Ulasım/">Ulaşım</a> </li><li><a href="/tr/bedava-vektor/Yiyecek ve icecek/">Yiyecek ve içecek</a> </li> </ul>
+</div>
+<div class="footer-column">
+<img src="/img/social.png" alt="social-media" usemap="#socialmap">
+<map name="socialmap">
+<area shape="rect" coords="0,0,56,56" href="https://www.facebook.com/pages/Public-domain-vectors/471956619584506?skip_nax_wizard=true" alt="FB">
+<area shape="rect" coords="58,0,115,56" href="https://instagram.com" alt="Instagram">
+<area shape="rect" coords="117,0,173,56" href="https://publicdomainvectors.tumblr.com/" alt="Tumblr">
+<area shape="rect" coords="0,58,56,114" href="http://publicdomainvectors.deviantart.com/" alt="deviantart">
+<area shape="rect" coords="58,58,115,114" href="https://www.linkedin.com/company/5093068" alt="LinkedIn">
+<area shape="rect" coords="117,58,173,114" href="https://twitter.com/publicdomainvec" alt="Twitter">
+<area shape="rect" coords="58,117,115,173" href="https://www.pinterest.com/publicvectors/" alt="Pinterest">
+<area shape="rect" coords="117,117,173,173" href="https://youtube.com" alt="Youtube">
+</map>
+</div>
+<div class="clearfix"></div>
+<div class="copyright">
+<p>2013-2024 Publicdomainvectors.org</p>
+</div>
+</div>
+</div>
+</footer>
+</div> 
+
+
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="/js/bootstrap.min.js"></script>
+<script>
+
+$(document).ready(function()
+{
+    $("#ajax-contact-form").submit(function(e){
+		
+        $('#load').append('<center><img src="/images/ajax-loader.gif" alt="Currently Loading" id="loading" /></center>');
+		  e.preventDefault();
+        var fem = $(this).serialize(),
+    		note = $('#note1');
+	
+        $.ajax({
+            type: "POST",
+            url: "https://publicdomainvectors.org/newsletter1.php",
+            data: fem,
+            success: function(msg) {
+				if ( note.height() ) {			
+					note.slideUp(1000, function() { $(this).hide(); });
+				} 
+				else note.hide();
+
+				$('#loading').fadeOut(300, function() {
+					$(this).remove();
+
+					// Message Sent? Show the 'Thank You' message and hide the form
+					result = (msg === 'OK') ? '<div class="alert alert-success">Thank you for subscription!</div>' : msg;
+
+					var i = setInterval(function() {
+						if ( !note.is(':visible') ) {
+							note.html(result).slideDown(1000);
+							clearInterval(i);
+						}
+					}, 40);    
+				}); // end loading image fadeOut
+            }	
+        });
+
+        return false;
+    });
+});
+
+</script>
+<script language="javascript">
+    var some_var = "   of weather forecast color symbol for partly cloudy sky";
+  
+</script>
+<script>
+
+	$( document ).ready(function() {
+		$.ajax({
+			url: "https://new.publicdomainvectors.org/src/sdk_search1.php?pojam=   of weather forecast color symbol for partly cloudy sky&broj=9",            success: function(data)
+			{
+				$(".istock-img").prepend(data);
+        
+			}
+		});
+	});
+
+</script>
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"NRJS-15417342d295584c702","applicationID":"525287958","transactionName":"ZgMAZUFTWUJTUhcIXl9JN0NaHUdZXUUMT0FZFg==","queueTime":0,"applicationTime":78,"atts":"SkQDEwlJSkw=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+</html>
